@@ -11,20 +11,20 @@ h2 + p {
     border-bottom: solid grey 1px;
 }
 
-a:link{
+li > a:link{
     color: green;
 }
 
-a:visited{
+li > a:visited{
     color: red;
 }
 
-a:hover{
+li > a:hover{
     color:pink;
 }
 
-li:first-child{
-    font-style: bold;
+li:first-child::first-letter{
+    font-weight: bold;
     font-size: 120%;
 }
 
